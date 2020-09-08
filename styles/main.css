@@ -1,0 +1,32 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+#navbar{
+    background-color: burlywood;
+    height:8vh;
+    align-items: center;
+    display: flex;
+}
+#list-navbar{
+    background-color: chartreuse;
+    display: flex;
+    width: 100%;
+    padding: 1%;
+    margin: 2%;
+    font-size: 0.8em;
+    border: solid;
+}
+
+.nav-link-left{
+   border:solid;
+   justify-self: left;
+}
+.nav-link-right{
+   border: solid;
+   justify-self: right;
+  
+}
+
+
+
