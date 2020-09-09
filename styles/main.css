@@ -1,31 +1,49 @@
-a{
-    text-decoration: none;
-    color: black;
+#page{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 10% auto 10%;
+    background-color: grey;
 }
 #navbar{
-    background-color: burlywood;
-    height:8vh;
-    align-items: center;
-    display: flex;
+    background-color: hotpink;
+    display: grid;
+    grid-template-columns: 20% auto 20%;
 }
-#list-navbar{
-    background-color: chartreuse;
+#google-list{
+    background-color: lightblue;
     display: flex;
-    width: 100%;
-    padding: 1%;
-    margin: 2%;
-    font-size: 0.8em;
+    justify-content: space-around;
+    align-items: center;
+}
+.google-item{
     border: solid;
 }
-
-.nav-link-left{
-   border:solid;
-   justify-self: left;
+#user-list{
+    grid-column-start: 3;
+    background-color: lightseagreen;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
-.nav-link-right{
-   border: solid;
-   justify-self: right;
-  
+.user-item{
+    background-color: lime;
+    flex-basis: 10;
+}
+#icon-dots{
+    font-size: 120%;
+}
+#icon-user{
+   font-size: 200%; 
+}
+
+
+#main-content{
+    background-color: indigo;
+}
+#foot{
+    background-color: greenyellow;
 }
 
 

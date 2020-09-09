@@ -1,18 +1,36 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link
-            rel="stylesheet"
-            href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-            integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
-            crossorigin="anonymous"
-        />
-        <link rel="stylesheet" href="styles/reset.css" type="text/css" media="all">
-        <link rel="stylesheet" href="styles/main.css" type="text/css" media="all">
+
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles/reset.css" type="text/css" media="all">
+    <link rel="stylesheet" href="styles/main.css" type="text/css" media="all">
 
 
-    </head>
-    <body>
+</head>
+
+<body>
+    <div id="page">
+
+        <div id="navbar">
+            <div id="google-list">
+                <div class="google-item"><a href="">Sobre Google</a></div>
+                <div class="google-item"><a
+                        href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjp6riv7tnrAhWwyoUKHay1A9MQpMwCCAQ&url=https%3A%2F%2Fstore.google.com%2FES%3Futm_source%3Dhp_header%26utm_medium%3Dgoogle_ooo%26utm_campaign%3DGS100042%26hl%3Des-ES&usg=AOvVaw0Ny9nJjbpvEncq9_-LK9dX">Tienda</a>
+                </div>
+            </div>
+
+            <div id="user-list">
+                <div class="user-item"><a href="">Gmail</a></div>
+                <div class="user-item"><a href="">Imagenes</a></div>
+                <div class="user-item" id="icon-dots"><a href=""><i class="fas fa-ellipsis-h"></i></a></div>
+                <div class="user-item" id="icon-user"><a href=""><i class="fas fa-user-circle"></i></a></div>
+            </div>
+
+        </div>
+
+        <!--
         <nav id="navbar">
             <ul id="list-navbar">
         
@@ -25,10 +43,12 @@
                 
             </ul>
         </nav>
+        -->
 
-        <div id="main-div">
+        <div id="main-content">
             <div id="div-logo-google">
-                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google-logo">
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+                    alt="google-logo">
             </div>
             <div id="search-bar">
                 <i class="fas fa-search"></i><input id="search-input" type="text">
@@ -39,7 +59,7 @@
                 <input type="button" name="" id="" value="Voy a tener suerte">
             </div>
             <div id="lenguages">
-                <p>Ofrecido por Google en: 
+                <p>Ofrecido por Google en:
                     <a href="">English</a>
                     <a href="">catalá</a>
                     <a href="">galego</a>
@@ -47,23 +67,25 @@
                 </p>
             </div>
         </div>
+        <divid id="foot">
+            <footer>
+                <div>España</div>
+                <div>
+                    <ul>
+                        <li><a href="">Publicidad</a></li>
+                        <li><a href="">Empresa</a></li>
+                        <li><a href="">Como funciona la busqueda</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="">Privacidad</a></li>
+                        <li><a href="">Terminos</a></li>
+                        <li><a href="">Configuracion</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </div>
 
-        <footer>
-            <div>España</div>
-            <div>
-                <ul>
-                    <li><a href="">Publicidad</a></li>
-                    <li><a href="">Empresa</a></li>
-                    <li><a href="">Como funciona la busqueda</a></li>
-                </ul>
-                <ul>
-                    <li><a href="">Privacidad</a></li>
-                    <li><a href="">Terminos</a></li>
-                    <li><a href="">Configuracion</a></li>
-                </ul>
-            </div>
-        </footer>
+</body>
 
-
-    </body>
 </html>
